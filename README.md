@@ -62,14 +62,14 @@ classDiagram
 ```
 
 ## Capturas de pantalla
-![img.png](img.png)
+![img.png](Capturas/img.png)
 
-![img_1.png](img_1.png)
+![img_1.png](Capturas/img_1.png)
 
 
-![img_2.png](img_2.png)
+![img_2.png](Capturas/img_2.png)
 
-![img_3.png](img_3.png)
+![img_3.png](Capturas/img_3.png)
 
 
 
