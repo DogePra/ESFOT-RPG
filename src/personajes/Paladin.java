@@ -74,7 +74,6 @@ public class Paladin extends Guerrero {
                 + " puntos del próximo ataque.");
     }
 
-    // Sobrescritura: el escudo reduce la potencia entrante y luego se reutiliza el método del padre
     @Override
     public void recibirDanio(int cantidad) {
         if (escudoActivo) {
