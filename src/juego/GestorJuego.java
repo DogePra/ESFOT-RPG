@@ -16,7 +16,6 @@ public class GestorJuego {
         return registro.containsKey(nombre);
     }
 
-    // Mantiene las dos colecciones sincronizadas
     public boolean registrar(Personaje p) {
         if (registro.containsKey(p.getNombre())) {
             System.out.println("Ya existe un personaje con el nombre " + p.getNombre() + ".");
@@ -33,7 +32,6 @@ public class GestorJuego {
         return registro.get(nombre);
     }
 
-    // Polimorfismo: cada personaje ejecuta SU versión de mostrarInformacion()
     public void mostrarTodos() {
         if (personajes.isEmpty()) {
             System.out.println("No hay personajes registrados.");
